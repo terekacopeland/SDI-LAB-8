@@ -35,14 +35,18 @@ checkEmail();*/
 var namesStartJ = function() {
 
 	
-	var namesStartJ = ["Jimmy/ John/ Joseph/ Jack"];
+	var namesStartJ = ["Jimmy", "/", "John", "/", "Joseph", "/", "Jack"];
 
 	for (var i = 0; i < namesStartJ.length; i++) {
 
-		console.log("For guys have names that Start with 'J' " + namesStartJ[i] + ".");
+		console.log("For guys have names that Start with 'J' " + namesStartJ + ".");
 
 
 	};
+	
+	namesStartJ.pop("/");
+	console.log("I am removing the / seperator " + namesStartJ);
+	
 
 	
 
