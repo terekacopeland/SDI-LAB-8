@@ -6,50 +6,49 @@
 //WORKING WITH STRINGS
 
 //problem 1
-/*var validate = "tcopeland@fullsail.com";
-var atSymbol = checkEmail.indexOf("@");
-var space = checkEmail.indexOf(" ");
-var period = checkEmail.indexOf(".")
+var validate = "tcopeland@fullsail.com";
+var atSymbol = ("@");
+//var space = (" ");
+var period = (".")
 
 var checkEmail = function() {
-
-	if (atSymbol > 1) {
-
-		console.log("only 1 @ symbol");
+	if (atSymbol > -1) {
 		
-		if (period > 1)
+		//return true;
 		
-		console.log("only 1 period")
-
-	} else {
-
-		console.log("Invalid email!");
+		console.log("only 1 @ symbol"); 
 		
-	};
+		 if  (period > -1)
+			
+			//return true;
+			
+			console.log("only 1 period")
+			
+			} else {
+				
+				return false;
+				
+				console.log("Invalid email!");
+			};
 };
 
-checkEmail();*/
+checkEmail();
 
-//problem 2
+/*//problem 2
 
-var namesStartJ = function() {
+ var namesStartJ = function() {
 
-	
-	var namesStartJ = ["Jimmy", "/", "John", "/", "Joseph", "/", "Jack"];
+ var namesStartJ = ["Jimmy", "/", "John", "/", "Joseph", "/", "Jack"];
 
-	for (var i = 0; i < namesStartJ.length; i++) {
+ for (var i = 0; i < namesStartJ.length; i++) {
 
-		console.log("For guys have names that Start with 'J' " + namesStartJ + ".");
+ console.log("For guys have names that Start with 'J' " + namesStartJ + ".");
 
+ };
 
-	};
-	
-	namesStartJ.pop("/");
-	console.log("I am removing the / seperator " + namesStartJ.pop);
-	
+ namesStartJ.pop("/");
+ console.log("I am removing the / seperator " + namesStartJ.pop);
 
-	
+ };
 
-};
-
-namesStartJ();
+ namesStartJ();*/
