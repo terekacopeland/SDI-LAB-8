@@ -45,7 +45,7 @@ var namesStartJ = function() {
 	};
 	
 	namesStartJ.pop("/");
-	console.log("I am removing the / seperator " + namesStartJ);
+	console.log("I am removing the / seperator " + namesStartJ.pop);
 	
 
 	
